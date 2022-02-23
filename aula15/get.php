@@ -14,7 +14,7 @@
 
 </head>
 <body>
-
+    
     <form method="get" action="recebe_get.php">
         <input type="text" name="nome" placeholder="Digite seu nome aqui" id=""><br><br>
         <input type="text" name="idade" placeholder="Digite sua idade aqui" id=""><br><br>
