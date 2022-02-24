@@ -40,16 +40,16 @@ if (file_exists($caminho) && is_file($caminho)){
 */
 
 
-//Apagar pasta com arquivos.
-if (is_dir($pasta)){
-    foreach(scandir($pasta) as $arquivo){
-        $caminho= "arquivos/$arquivo";
-        if (is_file($caminho)){
-            unlink($caminho);
-        }
-    }
-    rmdir($pasta);
-}
+//Apagar pasta com
+//if (is_dir($pasta)){
+//  foreach(scandir($pasta) as $arquivo){
+//        $caminho= "arquivos/$arquivo";
+//       if (is_file($caminho)){
+//            unlink($caminho);
+//        }
+//   }
+//    rmdir($pasta);
+//}
 
 
 
