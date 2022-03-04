@@ -26,7 +26,8 @@
         <form method="post" action="recebe_post.php">
             <input type="text" name="nome" placeholder="Digite seu nome aqui" id=""><br><br>
             <input type="text" name="idade" placeholder="Digite sua idade aqui" id=""><br><br>
-                <hr><button type="submit">enviar</button>
+                <hr>
+                <button type="submit">enviar</button>
         </form>
 
     </body>
